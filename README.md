@@ -2,9 +2,13 @@ Job Portal Application
 A web-based job portal application built with Java 23 and Spring Boot. This project allows users to search for jobs, apply for positions, and manage job postings.
 
 Prerequisites
+
 Java: Java 23 or above
+
 Spring Boot: Version 3.x.x (Latest version)
+
 Maven: For managing dependencies
+
 
 Database Configuration
 Make sure to configure the database connection in the src/main/resources/application.properties file:
