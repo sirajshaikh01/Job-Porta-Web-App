@@ -14,7 +14,6 @@ Database Configuration
 Make sure to configure the database connection in the src/main/resources/application.properties file:
 
 properties
-
 Copy code
 
 spring.datasource.url=jdbc:mysql://localhost:3306/job_portal
@@ -26,6 +25,7 @@ spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
 
 Replace your_db_username and your_db_password with your database credentials.
+
 
 
 API Endpoints
