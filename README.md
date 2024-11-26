@@ -59,7 +59,7 @@ Job Application: POST /api/jobs/{id}/apply
 
 Admin Management: POST /api/admin/jobs
 
-## User Roles and Access'
+## User Roles and Access
 
 # Job Seeker
 
