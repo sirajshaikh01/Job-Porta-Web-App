@@ -30,23 +30,63 @@ Maven (for managing dependencies)
 Setup
 1. Clone the repository:
 
- git clone https://github.com/yourusername/job-portal.git
+   git clone https://github.com/yourusername/job-portal.git
 
 2. Configure the database connection in src/main/resources/application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/job_portal
+   spring.datasource.url=jdbc:mysql://localhost:3306/job_portal
 
-spring.datasource.username=your_db_username
+   spring.datasource.username=your_db_username
 
-spring.datasource.password=your_db_password
+   spring.datasource.password=your_db_password
 
-spring.jpa.hibernate.ddl-auto=update
+   spring.jpa.hibernate.ddl-auto=update
 
-Replace your_db_username and your_db_password with your database credentials.
+   Replace your_db_username and your_db_password with your database credentials.
 
 3. Run Sql code in your database given in this repository
 
 4. Build and run the application:
 
-mvn spring-boot:run
+   mvn spring-boot:run
 
+## API Endpoints
+User Registration: POST /api/users/register
+
+Job Search: GET /api/jobs
+
+Job Application: POST /api/jobs/{id}/apply
+
+Admin Management: POST /api/admin/jobs
+
+## User Roles and Access'
+
+# Job Seeker
+
+Can register and create a profile
+
+Can search for job listings
+
+Can apply to job postings
+
+Can view and manage their applications
+
+# Recruiter
+
+Can register and create a company profile
+
+Can post new job listings
+
+Can view and manage applications for their job postings
+
+Can communicate with applicants through the platform
+
+## Technologies Used
+
+Backend: Java 23, Spring Boot
+
+Database: MySQL
+
+Build Tool: Maven
+
+Authentication: JSON Web Tokens (JWT)
