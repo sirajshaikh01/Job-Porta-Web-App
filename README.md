@@ -90,3 +90,25 @@ Database: MySQL
 Build Tool: Maven
 
 Authentication: JSON Web Tokens (JWT)
+
+## Portal Screenshots
+
+Here are some screenshots of the Job Portal application:
+
+1. Landing Page
+<img width="1440" alt="landing page" src="https://github.com/user-attachments/assets/9b3b9005-b54f-4780-9348-efd6c8392739">
+
+2. Registration Page
+<img width="1440" alt="registration" src="https://github.com/user-attachments/assets/b7094a76-f539-4b65-a4ab-71c894542e05">
+
+3. Login Page
+<img width="1440" alt="login" src="https://github.com/user-attachments/assets/f62e128a-a3a9-4722-ad6b-36665d9eb31e">
+
+4. Candidate Dashboard
+<img width="1440" alt="candidate dashboard" src="https://github.com/user-attachments/assets/fc0f79d4-1aa7-45d3-81a1-dc1b86efe4c1">
+
+5. Recruiter Dashboard
+<img width="1440" alt="Recruiter dashboard" src="https://github.com/user-attachments/assets/4fb51990-c341-42f8-9c27-495d8febced5">
+
+
+
